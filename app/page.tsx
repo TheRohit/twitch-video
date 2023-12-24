@@ -1,3 +1,10 @@
+import { UserButton } from "@clerk/nextjs";
+
 export default function Home() {
-  return <div>auth worked!</div>;
+  return (
+    <div>
+      auth worked!
+      <UserButton />
+    </div>
+  );
 }
